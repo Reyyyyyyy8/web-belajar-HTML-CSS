@@ -1,0 +1,90 @@
+/* tanda bintang dibawah untuk mencakup seluruh html yang ada */
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+/* body untuk mengubah bodynya saja  */
+body {
+    
+    background-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+   
+}
+/* container-navbar itu div yang sudah di beri class sesuai apa yang kita inginkan */
+.container-navbar{
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+}
+/* ul-navbar dibawah class dari ul pada div di html */
+ .ul-navbar {
+    background-color: antiquewhite;
+    display:flex; 
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ /*  li_navbar dibawah class dari li pada div di html */
+ .li-navbar {
+    list-style-type: none ;
+    padding: 20px;
+    margin: 5px;
+    color: black;
+    font-size: 15px;
+ }
+.li-navbar:hover {
+    background-color: tomato;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 10px;
+}
+
+ /* a-navbar itu css untuk tiap link yang ada  */
+ .a-navbar  {
+    color: black;
+    text-decoration: none;
+ }
+ /* container content itu class dari div content */
+ .container-content {
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+ }
+
+ .a-content {
+    height: 30%;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 30px;
+    box-shadow: 5px 9px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 9px 5px 0px rgba(0,0,0,0.75);
+ }
+
+ /* img-content class dari img di div */
+ .img-content {
+    height: 200px;
+ }
+ 
+
+ .container-footer {
+    background-color: aquamarine;
+    color: orangered;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+ }
+ .h1-footer {
+        font-size: 30px;
+ }
